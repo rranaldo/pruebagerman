@@ -19,7 +19,6 @@ Route::get('/AllRepeatMunicipios','GeneralController@AllRepeatMunicipios')->name
 
 Route::get('/tableWithDataFaker','GeneralController@tableWithDataFaker')->name('tableWithDataFaker');
 
-Route::get('/tableWithDataFaker','GeneralController@tableWithDataFaker')->name('tableWithDataFaker');
 
 Route::get('/departamento_totalmunicipios', function () {
     return view('departamento_totales');
